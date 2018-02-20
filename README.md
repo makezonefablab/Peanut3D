@@ -14,6 +14,12 @@
 [*메가트로닉스 Wiki 바로가기*](http://reprap.org/wiki/Megatronics_2.0)
 
 
+본 보드는 Peanuti3 제품에 사용되었던 보드입니다.
+![Peanuti3](https://github.com/makezonefablab/Peanut3D/blob/master/img/IMG_4490.jpg)  
+
+
+
+
 설정
 --------------
 ![ScreenShot](https://github.com/makezonefablab/Peanut3D/blob/master/img/wiring.jpg)
