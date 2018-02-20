@@ -34,14 +34,49 @@
 --------------
 **Configuration.h 만 수정하면 현재 자신의 프린터에 맞는 설정을 할 수 있습니다.
 
-> 1. 주요 위치
+본 헤더파일에서 아래의 항목들만 수정하면 자신의 프린터보드에 적용가능합니다. 아래의 항목을 확인하여 수정바랍니다.
+
+> 1. 보드 선택 - Megatronics v2.0 선택
 ```
-~ $ cd /home/mediaflow
-~ $ wget https://github.com/makezonefablab/TinyFarmer-HUB/tree/master/src/TinyfarmerHubWeb.zip
-~ $ wget https://github.com/makezonefablab/TinyFarmer-HUB/tree/master/src/TinyfarmerHub.zip
-~ $ tar xvf TinyfarmerHub.zip
-~ $ tar xvf TinyfarmerHubWeb.zip
+#ifndef MOTHERBOARD
+#define MOTHERBOARD 701
+#endif
+
 ```
+
+> 2. 익스투루더 힛터 및 베드 온도 최대값 설정 
+```
+#define HEATER_0_MAXTEMP 220 // 현재 220도를 넘으면 자동 리셋 걸리게 설정
+...
+#define BED_MAXTEMP 90       // 베드 온도는 90도
+
+```
+
+> 3. 베드에 공급되는 전원 최대로 설정 - 베드는 12V전원과 직결되는데 PWM값을 Full로 설정하여 최대값까지 쓸 수 있도록 설정
+```
+#define MAX_BED_POWER 255 // limits duty cycle to bed; 255=full current
+```
+
+> 4. 익스투루더 X,Y,Z 움직임 영역 설정 - 베드의 크기에 맞게 설정
+```
+// Travel limits after homing
+#define X_MAX_POS 120
+#define X_MIN_POS 0
+#define Y_MAX_POS 150
+#define Y_MIN_POS 0
+#define Z_MAX_POS 120
+#define Z_MIN_POS 0
+```
+
+> 5. 각 축 스텝모터 회전대비 이송값 설정 (아주 중요함)
+```
+#define DEFAULT_AXIS_STEPS_PER_UNIT   {79.78, 79.73, 160*16, 9.28346*16} // X, Y, Z,  extruding 값 순으로 설정
+
+```
+
+이송값 계산은 1mm 이송되는데 필요한 스텝모터에 주어지는 스텝값입니다. 현재 설정은 x,y 축은 79.78스텝을 주면 1mm,  z축은 160x16스텝, 그리고, 필라멘트 1mm 뽑아내는데 9.28346 x 16 스텝을 주어야 합니다.  이는 모두 peanuti3 기준이므로 자신의 프린터에 맞게 계산하여 정확한 값을 설정하여야 합니다.
+
+
 
 제작영상
 --------------
