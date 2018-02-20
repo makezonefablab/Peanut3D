@@ -14,9 +14,13 @@
 [*메가트로닉스 Wiki 바로가기*](http://reprap.org/wiki/Megatronics_2.0)
 
 
-준비물
+설정
 --------------
 ![ScreenShot](https://raw.githubusercontent.com/makezonefablab/HungryBot/master/img/%EC%A4%80%EB%B9%84%EB%AC%BC_.jpg)
+ **사용툴 - Arduino IDE 1.6.5
+ **보드형식 - Arduino Mega
+ 
+ 
 
 제작영상
 --------------
