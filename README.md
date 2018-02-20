@@ -16,12 +16,25 @@
 
 설정
 --------------
-![ScreenShot](https://raw.githubusercontent.com/makezonefablab/HungryBot/master/img/%EC%A4%80%EB%B9%84%EB%AC%BC_.jpg)
+![ScreenShot](https://github.com/makezonefablab/Peanut3D/blob/master/img/wiring.jpg)
+
+
  **사용툴 - Arduino IDE 1.6.5
  
  **보드형식 - Arduino Mega
  
+ 사용툴은 아두이노 1.6.5버전을 사용하였습니다.
  
+ 신 버전은 소스호환에 에러가 있어 현재는 사용하지 않고요, 반드시 위의 버전을 다운받아 사용하는게 좋습니다.
+ 
+ src폴더에 있는 파일을 다운로드하여 바로 컴파일하여 에러가 없는지 확인 합니다. 컴파일 시 보드형식은 mega보드를 선택하여야 합니다. 피넛보드는 Atmega2560을 기반으로 제작되고 부트로더 또한 메가용 부트로더가 올라가 있습니다.
+ 
+ 
+수정
+--------------
+**Configuration.h 만 수정하면 현재 자신의 프린터에 맞는 설정을 할 수 있습니다.
+
+
 
 제작영상
 --------------
