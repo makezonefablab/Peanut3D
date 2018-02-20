@@ -34,7 +34,14 @@
 --------------
 **Configuration.h 만 수정하면 현재 자신의 프린터에 맞는 설정을 할 수 있습니다.
 
-
+> 1. 주요 위치
+```
+~ $ cd /home/mediaflow
+~ $ wget https://github.com/makezonefablab/TinyFarmer-HUB/tree/master/src/TinyfarmerHubWeb.zip
+~ $ wget https://github.com/makezonefablab/TinyFarmer-HUB/tree/master/src/TinyfarmerHub.zip
+~ $ tar xvf TinyfarmerHub.zip
+~ $ tar xvf TinyfarmerHubWeb.zip
+```
 
 제작영상
 --------------
