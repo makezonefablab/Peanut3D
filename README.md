@@ -13,6 +13,8 @@
 잘알려진 marlin 소스를 사용하였고, megatronix라는 보드를 참고하여 제작되었습니다.
 
 [*메가트로닉스 Wiki 바로가기*](http://reprap.org/wiki/Megatronics_2.0)
+![Megatronix 2.0 보드](https://github.com/makezonefablab/Peanut3D/blob/master/img/800px-Megatronicsv2_connectors.png)
+
 
 
 본 보드는 Peanuti3 제품에 사용되었던 보드입니다. 
