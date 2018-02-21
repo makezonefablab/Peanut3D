@@ -9,12 +9,15 @@
 --------------
 피넛i3에 사용되었던 콘트롤러 보드입니다.
 한국에서 개발되어 직접 제작하였고요, 안정된 성능을 보여주며 쉽게 프린터에 적용 가능하도록 되어 있습니다.
+
 잘알려진 marlin 소스를 사용하였고, megatronix라는 보드를 참고하여 제작되었습니다.
 
 [*메가트로닉스 Wiki 바로가기*](http://reprap.org/wiki/Megatronics_2.0)
 
 
-본 보드는 Peanuti3 제품에 사용되었던 보드입니다. 해당 프린터의 스팩은 아래와 같으며 쉽게 들고 다닐 수 있게 제작되어 "무한상상실"과 중고등학교에 배포가 되었습니다.
+본 보드는 Peanuti3 제품에 사용되었던 보드입니다. 
+
+해당 프린터의 스팩은 아래와 같으며 쉽게 들고 다닐 수 있게 제작되어 "무한상상실"과 중고등학교에 배포가 되었습니다.
 ![Peanuti3](https://github.com/makezonefablab/Peanut3D/blob/master/img/IMG_4490.jpg)  
 ![Specification](https://github.com/makezonefablab/Peanut3D/blob/master/img/spec.jpg)  
 
