@@ -21,7 +21,7 @@
 ![Peanuti3](https://github.com/makezonefablab/Peanut3D/blob/master/img/IMG_4490.jpg)  
 ![Specification](https://github.com/makezonefablab/Peanut3D/blob/master/img/spec.jpg)  
 
-[* 구매하러 가기 www.icbanq.com/P008256530 *](http://www.icbanq.com/P008256530)
+***[* 구매하러 가기 www.icbanq.com/P008256530 *](http://www.icbanq.com/P008256530)
 
 
 설정
@@ -89,7 +89,7 @@
 이는 모두 peanuti3 기준이므로 자신의 프린터에 맞게 계산하여 정확한 값을 설정하여야 합니다.
 
 
-[* 구매하러 가기 www.icbanq.com/P008256530 *](http://www.icbanq.com/P008256530)
+***[* 구매하러 가기 www.icbanq.com/P008256530 *](http://www.icbanq.com/P008256530)
 
 
 
