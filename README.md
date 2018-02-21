@@ -94,8 +94,4 @@
 
 
 
-제작영상
---------------
-[![ScreenShot](https://raw.githubusercontent.com/makezonefablab/HungryBot/master/img/vimeo.png)](https://vimeo.com/102814242)
-
 
