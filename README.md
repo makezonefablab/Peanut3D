@@ -15,12 +15,15 @@
 [*메가트로닉스 Wiki 바로가기*](http://reprap.org/wiki/Megatronics_2.0)
 ![Megatronix 2.0 보드](https://github.com/makezonefablab/Peanut3D/blob/master/img/800px-Megatronicsv2_connectors.png)
 
-
+[메가트로닉스 보드]
 
 
 
 
 ![Peanut3D 보드](https://github.com/makezonefablab/Peanut3D/blob/master/img/nuts3d.jpg)
+[Peanut3D 보드]
+
+
 본 보드는 Peanuti3 제품에 사용되었던 보드입니다. 
 
 해당 프린터의 스팩은 아래와 같으며 쉽게 들고 다닐 수 있게 제작되어 "무한상상실"과 중고등학교에 배포가 되었습니다.
